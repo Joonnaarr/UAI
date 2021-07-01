@@ -1,0 +1,83 @@
+int main()
+
+
+
+ {  
+
+
+
+ 	int c=0, f=0;
+
+	char bloque = 178;
+
+ 	system("color 04");
+
+ 	
+
+ 	f++;f++;f++;f++;f++;f++;c++;
+
+ 	gotoxy(c,f);
+
+ 	printf("%c",bloque);
+
+ 	
+
+ 	c++;c++;gotoxy(c,f);
+
+ 	printf("%c",bloque);
+
+ 	f++;gotoxy(c,f);
+
+ 	printf("%c",bloque);
+
+ 	c--;c--;gotoxy(c,f);
+
+ 	printf("%c",bloque);
+
+ 	f++;gotoxy(c,f);
+
+ 	printf("%c",bloque);
+
+ 	c++;c++;gotoxy(c,f);
+
+ 	printf("%c",bloque);
+
+ 	f++;gotoxy(c,f);
+
+ 	printf("%c",bloque);
+
+ 	c--;gotoxy(c,f);
+
+ 	printf("%c",bloque);
+
+ 	c--;gotoxy(c,f);
+
+ 	printf("%c",bloque);
+
+ 	f++;gotoxy(c,f);
+
+ 	printf("%c",bloque);
+
+ 	c++;c++;gotoxy(c,f);
+
+ 	printf("%c",bloque);
+
+ 	f++;
+
+ 	c--;c--;gotoxy(c,f);
+
+ 	printf("%c",bloque);
+
+ 	c++;c++;gotoxy(c,f);
+
+ 	printf("%c",bloque);
+
+ 	f++;
+
+ 	c--;c--;gotoxy(c,f);
+
+ 	printf("%c",bloque);
+
+ 	c++;c++;gotoxy(c,f);
+
+ 	printf("%c",bloque);

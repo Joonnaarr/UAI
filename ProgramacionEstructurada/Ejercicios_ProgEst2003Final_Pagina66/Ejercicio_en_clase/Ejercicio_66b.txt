@@ -1,0 +1,28 @@
+1.	En una empresa los empleados cobran un sueldo según la categoria, son 50  
+      	empleados y 3 categorías
+
+		Categoría 1 = $ 1500
+		Categoría 2 = $ 2000
+		Categoría 3 = $ 2500
+
+Al sueldo se le suman $ 100 por cada año trabajado.
+Si se ingresa el nombre, categoría y antigüedad de cada empleado, 
+calcular
+
+A.	Cuántos empleados hay por categoría
+B.	Total de sueldos pagados por categoría
+C.	Sueldo promedio general
+D.	Sueldo máximo y a quién pertenece
+E.	Qué porcentuel sobre el total de sueldos  representa cada 
+	total de sueldos de las categorías
+
+aumentar la antiguedad y cobra % mas
+ver y agregar en cada case
+hasta 5 años 5%
+hasta 10 %10
+hasta 15 años 15%
+hasta 20 = 20%
+mayor a 20 40%
+
+
+

@@ -1,0 +1,32 @@
+Ejercicio para grupos 5, 6 y 7:
+
+7:19 PM
+
+Una empresa transportadora de caudales posee 8 camiones blindados para 
+realizar sus viajes.
+Los valores transportados son 4:
+
+Código del valor 	Descripción 		Costo del envío
+
+1			oro			30000
+2			billetes		25000
+3			piedras preciosas	20000
+4			documentos		15000
+
+Cada vez que realiza un viaje tiene la siguiente información que 
+finaliza con cliente = 0
+
+•	Código de cliente
+•	Número de camión
+•	Tipo de valor 
+•	Cantidad a trasladar
+
+Se desea saber:
+
+A.	Cantidad de viajes realizados por cada camión 
+B.	Total transportado por camión de oro
+C.	Recaudación de cada valor
+D.	Cliente que transportó menos en un viaje
+E.	Porcentual que representa lo recaudado por cada camión 
+sobre el total de la empresa
+F. 	Promedio de cada uno de los valores transportados

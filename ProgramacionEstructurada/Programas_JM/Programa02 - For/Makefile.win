@@ -1,0 +1,32 @@
+#include <stdio.h>
+int main(){
+	int i, n;
+	char nombre[9][9],grupo[9][9],salon[9][9],profesor[9][9],horario[9][9];
+	printf("Cuantas materias quieres capturar\n");
+	scanf("%d", &n);
+	for(i=0; i<n; i++){
+		printf("Nombre de la materia no.%d",i+1);
+		scanf("%s",nombre[i]);
+		printf("Grupo no.%d",i+1);
+		scanf("%s",grupo[i]);
+		printf("Salon no.%d",i+1);
+		scanf("%s",salon[i]);
+		printf("Profesor no.%d",i+1);
+		scanf("%s",profesor[i]);
+		printf("Horario no.%d",i+1);
+		scanf("%s",horario[i]);
+		
+	}
+	
+	printf("**********REPORTE DE MATERIAS CURSADAS  ACTUALMENTE************\n");
+	printf("NOMBRE\tGRUPO\tSALON\tPROFESOR\tHORARIO\n");
+	for(i=0; i<n; i++){
+		printf("%s\t",nombre[i]);
+		printf("%s\t",grupo[i]);
+		printf("%s\t",salon[i]);
+		printf("%s\t",profesor[i]);
+		printf("%s\t",horario[i]);
+		printf("\n");
+	}
+	return 0;
+}

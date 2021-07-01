@@ -1,0 +1,20 @@
+include <math.h>
+#include <conio.h>
+#include <string.h>
+//Ingresar los sueldos y nombres de 30 empleados, indicar e imprimir el sueldo mayor y a quién pertenece
+int main(){
+	int sueldos, i;
+	char nombre [30][30];
+	for(i=0;i<2;i++){
+		printf("Ingresar el nombre del empleado: "); 
+		fflush(stdin);
+		gets(nombre[i]);
+		fflush(stdin);
+		printf("Ingresar el sueldo: "); scanf("%i",&sueldos);
+	}
+	for(i=0;i<2;i++){
+	puts(nombre[i]);s
+}
+	
+	return 0;
+}
