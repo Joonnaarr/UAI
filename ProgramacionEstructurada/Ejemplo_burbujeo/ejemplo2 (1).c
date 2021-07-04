@@ -66,5 +66,69 @@ int main(int argc, char const *argv[])
     printf("\nLa cantidad de empleados mayores a 30 anios y sueldo menor a $ 1000: %d ",contedad1);
     printf("\nLa cantidad de empleados con edades menor a la edad promedio es: %d ",cant2);
     getch();
+
+
+
+
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////
+    printf("\n EJERCICIO 2");
+	
+	int verEj2[5];
+	int ii=0;
+	int op;
+	int dato;
+	int centro, inf=0,sup=4;
+	
+	for(ii=0,ii<=5;ii++){
+	
+		printf("\nIngrese un numero para la pos %d:",ii);
+		scanf("%d",verEj2[ii]);
+	
+	}
+	
+	printf("\nElija un dato para buscar:");
+	scanf("%d",dato);
+	
+	
+	
+	printf("\nElija la forma de ordenamiento: ");
+	printf("\n\t1-Binaria");
+	printf("\n\t2-Secuencial");
+	scanf("%d",&op);
+	
+	
+	switch(op){
+		
+		case 1: 
+		        for(ii=0;ii<5;ii++)//secuencial
+				{
+	  				if(verEj2[ii]==dato)
+					  {	  		
+	  					printf("el dato bucado esta en la pos: %d",ii);
+			  		
+					  }
+				}
+				brack;
+		
+		case 2: //binario
+			
+			while(inf<=sup){
+				centro=((sup-inf)/2)+inf;
+				if(vecEj2[centro]==dato){
+					printf("esta justo en el centro");
+					
+				}
+				else if(dato < vecEj2[centro] ){
+					sup=inf-1;
+				}
+				else{
+					inf=sup+1;
+				}
+			}
+			
+				
+	}
+
+
     return 0;
 }
